@@ -17,7 +17,7 @@ export default class MyFirstReactNativeProject extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to React Native!
+          Welcome to React Native! Hello 1
         </Text>
         <Text style={styles.instructions}>
           To get started, edit index.ios.js
@@ -39,7 +39,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#F5FCFF',
   },
   welcome: {
-    fontSize: 20,
+    fontSize: 28,
     textAlign: 'center',
     margin: 10,
   },
